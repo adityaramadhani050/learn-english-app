@@ -6,14 +6,14 @@ import 'package:learn_english_app/widgets/categories.dart';
 import 'package:learn_english_app/widgets/lessons.dart';
 import 'package:learn_english_app/widgets/product_card.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _HomeScreenState extends State<HomeScreen> {
   final List<String> categories = ['Brainstorm', 'Books', 'Videos', 'Audio'];
   int _selectedIndex = 0;
 
